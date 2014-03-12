@@ -14,8 +14,6 @@ import org.hibernate.annotations.BatchSize;
 
 import org.category.Category;
 
-@Entity
-@BatchSize(size = 20)
 public class Product {
 	private Long productId;
 	private String productName;
@@ -56,8 +54,7 @@ public class Product {
 	public void setPrice(Double price) {
 		this.price = price;
 	}
-	@ManyToOne(optional=false, fetch=FetchType.LAZY)
-    @JoinColumn(name="categoryId")
+
 	public Category getCategory() {
 		return category;
 	}
