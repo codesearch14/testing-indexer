@@ -1,6 +1,5 @@
 package org.model.product;
 
-
 import org.category.Category;
 
 public class Product {
