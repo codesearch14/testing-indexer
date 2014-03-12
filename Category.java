@@ -1,6 +1,5 @@
 package org.model.category;
 
-
 public class Category {
 	private Long categoryId;
 	private String categoryName;
