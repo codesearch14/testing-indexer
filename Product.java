@@ -51,4 +51,7 @@ public class Product {
 		this.category = category;
 	}
 	
+	public String toString() {
+		return this.productName;
+	}
 }
