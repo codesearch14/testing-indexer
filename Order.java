@@ -74,5 +74,8 @@ public class Order {
 	public void setUserProfile(UserProfile userProfile) {
 		this.userProfile = userProfile;
 	}
-    
+	
+	public String toString() {
+		return this.orderId;
+	}
 }
