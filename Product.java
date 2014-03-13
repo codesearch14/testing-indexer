@@ -1,6 +1,6 @@
 package org.model.product;
 
-import org.category.Category;
+import org.model.category.Category;
 
 public class Product {
 	private Long productId;
