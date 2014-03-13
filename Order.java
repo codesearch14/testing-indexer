@@ -7,6 +7,10 @@ import java.util.Set;
 import org.model.userprofile.UserProfile;
 import org.model.orderline.OrderLine;
 
+/**
+* This class represents a request made by an
+* user 
+*/
 public class Order {
 	private Long orderId;
 	private UserProfile userProfile;
