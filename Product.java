@@ -2,6 +2,11 @@ package org.model.product;
 
 import org.model.category.Category;
 
+
+/**
+ * This class represents a Product wih a 
+ * sales price and category.
+ ** /
 public class Product {
 	private Long productId;
 	private String productName;
