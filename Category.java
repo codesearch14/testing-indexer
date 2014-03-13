@@ -1,5 +1,8 @@
 package org.model.category;
 
+/**
+* This class represents a Category 
+*/
 public class Category {
 	private Long categoryId;
 	private String categoryName;
