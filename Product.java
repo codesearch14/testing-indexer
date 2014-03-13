@@ -4,7 +4,7 @@ import org.model.category.Category;
 
 
 /**
- * This class represents a Product wih a 
+ * This class represents a product wih a 
  * sales price and category.
  */
 public class Product {
